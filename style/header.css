@@ -1,0 +1,99 @@
+header {
+    height: 115px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.BackTopHead {
+    height: 80px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.TopHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    align-items: center;
+    padding-left: 20px;
+}
+
+.search {
+    border: 1px solid #e3e3e3;
+    height: 33px;
+    width: 435px;
+    display: flex;
+    align-items: center;
+}
+
+
+.search .text {
+    height: 30px;
+    width: 400px;
+}
+
+.search input{
+    height: 30px;
+    width: 400px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.search .image {
+    display: flex;
+    height: 22px;
+    width: 22px;
+    margin-left: 4px;
+}
+
+.search img {
+    cursor: pointer;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-right: 17px;
+}
+
+.buy p {
+    color: #a1a1a1;
+    font-size: 33px;
+}
+
+.buy img {
+    cursor: pointer;
+}
+
+.BackBotHead {
+    background: #4ccfc1;
+    height: 35px;
+}
+
+.BotHead {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+.BotHead p {
+    color: #fff;
+    font-size: 21px;
+    border-right: 2px solid #fff;
+    padding: 0 20px 0 0;
+    cursor: pointer;
+}
+
+.BotHead .contact p {
+    border-right: 0;
+}

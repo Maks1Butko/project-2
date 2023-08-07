@@ -1,0 +1,87 @@
+.product {
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.shoes {
+    display: flex;
+    border-right: 1px solid #e7e7e7;
+    height: 100%;
+    align-items: center;
+}
+
+.tshirts {
+    display: flex;
+    border-right: 1px solid #e7e7e7;
+    height: 100%;
+    align-items: center;
+}
+
+.shorts {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.product .text-1 {
+    /* margin: 35px 25px 0 0; */
+    padding: 35px 30px 0 0;
+}
+
+.product .text-2 {
+    /* margin: 35px 25px 0 60px; */
+    padding: 35px 30px 0 50px;
+}
+
+.product .text-3 {
+    /* margin: 35px 0 0 75px; */
+    padding: 35px 0 0 70px;
+}
+
+.shorts .image {
+    margin-left: 20px;
+}
+
+
+.product p {
+    font-size: 27px;
+    color: #afafaf;
+    font-family: 'Bebas Neue', sans-serif;
+    max-width: 100px;
+    line-height: 1em;
+}
+
+.product button {
+    margin-top: 17px;
+    width: 60px;
+    height: 30px;
+    background: #3cc395;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #3cc395;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
+
+.BackFeatured {
+    background: #40c4bb;
+    height: 67px;
+}
+
+.featured {
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.featured p {
+    padding: 15px 0 0 85px;
+    color: #fff;
+    font-size: 31px;
+    font-family: 'Bebas Neue', sans-serif;
+}
